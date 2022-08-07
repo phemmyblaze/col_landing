@@ -477,7 +477,8 @@ footer {
   color: #767272;
 }
 
-FORGET PASSWORD PAGE STYLES .forget_image {
+/* FORGET PASSWORD PAGE STYLES  */
+.forget_image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)),
     url(../images/forget_img.png);
   opacity: 0.9;
@@ -490,6 +491,7 @@ FORGET PASSWORD PAGE STYLES .forget_image {
   flex-direction: column;
   justify-content: center;
   padding: 30px;
+  color: #fff;
 }
 
 .forget_image h1 {
