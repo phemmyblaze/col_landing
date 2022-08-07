@@ -344,3 +344,246 @@ footer {
   color: rgba(16, 15, 15, 1);
   margin-left: 1rem;
 }
+
+/* LOGIN PAGE STYLES */
+
+.login-section {
+  display: flex;
+}
+
+.login_image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)),
+    url(../images/login_screen_img.png);
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login_image img {
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+}
+
+.login_image p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-style: normal;
+}
+
+.login_form {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+}
+
+.sign-info {
+  margin-left: 35rem;
+  margin-top: 1rem;
+}
+
+.sign-info p {
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 0.9rem;
+}
+
+.sign-info a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sign-up-btn {
+  padding: 0.6rem;
+  /* box-shadow: 0px 30px 45px rgba(0, 0, 0, 0.1); */
+}
+
+.sign-up-btn a {
+  border: 1px solid #534f4f;
+  padding: 1px 24px;
+  color: #534f4f;
+  border-radius: 5px;
+}
+
+.sign-up-btn a:hover {
+  background: rgba(150, 19, 19, 1);
+  color: #fff;
+}
+
+.login-info {
+  margin-top: 8rem;
+  margin-left: 2.5rem;
+}
+
+.login-info h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #100f0f;
+}
+
+.login-info span {
+  color: rgba(150, 19, 19, 1);
+}
+
+.login-info p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #100f0f;
+}
+
+.ft-p {
+  margin-left: 30rem;
+}
+
+.ft-p a {
+  text-decoration: none;
+  color: #961313;
+}
+
+.sign_btn {
+  background: #223344;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.sign_btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sign_btn:hover {
+  background: rgba(150, 19, 19, 1);
+  color: #fff;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #767272;
+}
+
+FORGET PASSWORD PAGE STYLES .forget_image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.71)),
+    url(../images/forget_img.png);
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
+
+.forget_image h1 {
+  font-weight: 700;
+  font-size: 50.2069px;
+  line-height: 58px;
+}
+
+.forget_image p {
+  font-weight: 500;
+  font-size: 20.92px;
+  line-height: 31px;
+  text-align: justify;
+}
+
+.forget_form {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forget-email {
+  margin-top: 18rem;
+  margin-left: 10rem;
+}
+
+.fe {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.fi {
+  padding: 10px 10px 10px 16px;
+  gap: 10px;
+
+  width: 508px;
+  height: 64px;
+
+  background: #d6d5d5;
+  border-radius: 5px;
+}
+
+.fr {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12rem;
+  margin-left: 20rem;
+}
+
+.fr p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #767272;
+}
+
+.ft_btn {
+  background: #961313;
+  border-radius: 10px;
+  padding: 10px 200px;
+  margin-top: 10px;
+  margin-left: 12rem;
+}
+
+.ft_btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ft_btn:hover {
+  background: #767272;
+  color: #fff;
+}
+
+.forget-word {
+  margin-left: 18rem;
+  margin-top: 1rem;
+}
+
+.forget-word p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0a0909;
+}
+
+.forget-word a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  text-transform: capitalize;
+}
