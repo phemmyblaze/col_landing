@@ -589,3 +589,148 @@ footer {
   font-weight: bold;
   text-transform: capitalize;
 }
+
+/* REST PAGE HTML */
+
+.rest {
+  background: #413963fd;
+  height: 100vh;
+}
+
+.rest-image {
+  padding-top: 1.5rem;
+}
+.rest-content {
+  padding: 3rem;
+  text-align: center;
+}
+
+.rest-text {
+  color: #fff;
+}
+
+.rest-text h3 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.rest-text p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.rest_btn {
+  background: rgba(112, 14, 14, 1);
+
+  border-radius: 4px;
+  margin-top: 1rem;
+  padding: 5px 150px;
+}
+
+.rest_btn a {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.rest_btn:hover {
+  background: rgba(152, 149, 149, 1);
+  color: #fff;
+}
+
+.rest_btn:active {
+  background: #ab9494;
+  color: rgba(112, 14, 14, 1);
+}
+
+.rest_change {
+  display: flex;
+  margin-top: 1.5rem;
+  margin-left: 50rem;
+}
+
+.rest_change p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #e11c1c;
+}
+
+.rest_btn_cancel {
+  background: #e64242;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 50px;
+  margin-left: -35rem;
+}
+
+.rest_btn_cancel a {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.rest_btn_cancel:hover {
+  background: rgba(85, 128, 170, 1);
+  color: #fff;
+}
+
+/* CHANGE.HTML STYLING */
+.change-text {
+  color: #fff;
+}
+.change-text h2 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 84px;
+}
+
+.change-text p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  padding-top: 1rem;
+}
+
+.change_btn {
+  background: #e0ebf5;
+  border-radius: 4px;
+  padding: 6px 120px;
+  margin-top: 10px;
+}
+
+.change_btn a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #141f29;
+  text-decoration: none;
+}
+
+.change_btn:hover {
+  background: #767272;
+  color: #fff;
+}
+
+/* MAIL_CHANGE.HTML STYLING */
+
+.mail_change_btn {
+  margin-left: 3rem;
+}
+
+.mail_change_btn2 {
+  margin-top: -3rem;
+}
+
+.mail_btn {
+  background: #e64242;
+  border-radius: 4px;
+  padding: 9px 177px;
+  margin-top: 10px;
+}
